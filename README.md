@@ -1,35 +1,48 @@
-# countries
+# REST Countries Explorer
 
-This template should help get you started developing with Vue 3 in Vite.
+## The Challenge
 
-## Recommended IDE Setup
+The goal of this project was to build out a multi-page country explorer using the REST Countries API, supporting light/dark mode and responsive layouts across devices.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Users should be able to:
 
-## Customize configuration
+- View the optimal layout depending on device screen size
+- Toggle between light and dark themes
+- Search for a country by name
+- Filter countries by region
+- Click on a country to view detailed information
+- View bordering countries and click to navigate to them
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## Built With
 
-## Project Setup
+- Vue 3 Composition API
+- Tailwind CSS
+- TypeScript
+- REST Countries API
+- Vue Router
 
-```sh
+## Technical Features
+
+- **Routing with Vue Router**: Seamless navigation between the home page and individual country detail pages.
+- **Dynamic Filtering**: Real-time search and region filtering using computed properties.
+- **Reusable Components**: Modular UI elements like country cards and detail views promote maintainability.
+- **Responsive Design**: Built with Tailwind CSS to adapt beautifully across screen sizes.
+- **Theme Toggle**: Light and dark mode support using class-based theming.
+- **Type Safety**: TypeScript is used throughout for improved reliability and developer experience.
+
+## View the Project
+
+👉 [Live Demo on GitHub Pages](https://stillelite.github.io/countries/)
+
+## Getting Started
+
+To run the project locally:
+
+1. Clone the repository
+2. Install dependencies
+3. Run the dev server
+
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
